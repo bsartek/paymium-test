@@ -20,7 +20,6 @@ while (order = queue.pop)
     end
     data['queued_orders'].delete(match)
     data['queued_orders'].delete(order)
-    binding.pry
   end
 end
 
