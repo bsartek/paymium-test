@@ -1,5 +1,4 @@
 require 'json'
-require 'pry'
 data = JSON.parse(File.open('data.json').read)
 
 queue = data['queued_orders'].dup
